@@ -1,12 +1,12 @@
-package tests.ui.positiveTests;
+package tests.ui;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-import tests.BaseTest;
+import tests.BaseUiTest;
 
 
-public class LogoutTest extends BaseTest {
+public class LogoutTest extends BaseUiTest {
 
     @Test
     public void logoutTest() {

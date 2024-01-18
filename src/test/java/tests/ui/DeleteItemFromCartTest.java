@@ -1,11 +1,11 @@
-package tests.ui.positiveTests;
+package tests.ui;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-import tests.BaseTest;
+import tests.BaseUiTest;
 
-public class DeleteItemFromCartTest extends BaseTest {
+public class DeleteItemFromCartTest extends BaseUiTest {
 
     @Test
     public void deleteItemFromCart() {

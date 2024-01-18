@@ -1,11 +1,11 @@
-package tests.ui.positiveTests;
+package tests.ui;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-import tests.BaseTest;
+import tests.BaseUiTest;
 
-public class ItemOrderTest extends BaseTest {
+public class ItemOrderTest extends BaseUiTest {
     public static final String NAME = "Jane";
     public static final String SURNAME = "Doe";
     public static final String POST_CODE = "74-237";

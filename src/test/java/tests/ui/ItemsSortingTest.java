@@ -1,16 +1,16 @@
-package tests.ui.positiveTests;
+package tests.ui;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import tests.BaseTest;
+import tests.BaseUiTest;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class ItemsSortingTest extends BaseTest {
+public class ItemsSortingTest extends BaseUiTest {
     @Test
     public void sortItemsByAlphabet() {
         getDriver().get(BASE_URL);
